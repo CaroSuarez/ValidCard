@@ -1,0 +1,25 @@
+.container{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    display: table;
+    
+}
+
+
+
+
+<!-- Aquí empieza la segunda ventana -->
+    <div class="container" id="ventana2">
+        
+        <!-- Mensaje de bienvenida con el logo -->
+        <div class="header">
+            <img src="logo.png" alt="logo"/>  
+            
+            <h1> Por favor introduce el número de tarjeta con la que vas a realizar el pago </h1>        
+        
+        </div>
+        <!-- Mensaje de bienvenida con el logo -->
+    </div>
+    <!-- Aquí termina la segunda ventana -->

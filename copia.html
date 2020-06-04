@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html >
+<head>
+    
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Monsters University </title>
+</head>
+<body>
+
+
+    <!-- Aquí empieza la ventana de Bienvenida -->
+    <div id="ventana1" class="container" >
+        
+        <!-- Mensaje de bienvenida con el logo -->
+        <div id="Bienvenida" class="header" >
+            <img src="logo.png" alt="logo"/>  
+            
+            <h1> Bienvenid@ a la página de inscripción de 
+                <br>
+                <div id="monstersUniversity">
+                    MONSTERS UNIVERSITY 
+                </div> 
+            ¡Donde podrás convertirte en el mejor asustador de todos!</h1>
+            <br>
+            <br>
+            <br>
+        </div>
+        <!-- Mensaje de bienvenida con el logo -->
+        <!-- Botón -->
+        <div><button type="button" onclick="showFunction()">Continuar</button></div>
+        <!-- Botón -->
+    </div>
+    <!-- Aquí termina la ventana de Bienvenida -->
+
+
+
+
+
+    <!-- Aquí empieza la segunda ventana -->
+    <div class="container" id="ventana2" style="display: none">
+        
+        <!-- Mensaje y logo -->
+        <div class="header">
+            <img src="logo.png" alt="logo"/>  
+            
+            <h1> Por favor introduce el número de tarjeta con la que vas a realizar el pago </h1>        
+        
+        </div>
+        
+        
+        <div><input id="cardNum" type="number" >prueba <span id="result"></span></div>
+
+
+        <!-- Mensaje y logo -->
+        <!-- Botón -->
+        <div><button type="button" onclick="showFunction2() ">Validar</button></div>
+        <!-- Botón -->
+    </div>
+    <!-- Aquí termina la segunda ventana -->
+
+
+<!-- Aquí empieza la tercera ventana -->
+<div class="container" id="ventana3" style="display: none">
+        
+    <!-- Mensaje y logo -->
+    <div class="header">
+        <img src="logo.png" alt="logo"/>  
+        
+        <h1> ¡Validación exitosa! </h1>        
+    
+    </div>
+    <!-- Mensaje y logo -->
+</div>
+<!-- Aquí termina la segunda ventana -->
+
+
+
+    
+
+    
+       
+
+
+    <script src="app.js"> </script>
+    <link rel="stylesheet" href="style.css">
+
+
+</body>
+</html>
