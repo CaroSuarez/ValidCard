@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Monsters Univerity</title>
+        
+    </head>
+    <body>
+        <!-- Aquí empieza la ventana de Bienvenida -->
+        <div id='ventana1' class="container" >
+            
+            <!-- Mensaje de bienvenida con el logo -->
+            <div id="Bienvenida" class="header">
+                <img src="logo.png" alt="logo"/>  
+                
+                <h1> Bienvenid@ a la página de incripción de 
+                    <br>
+                    <div id="monstersUniversity">
+                        MONSTERS UNIVERSITY
+                    </div> 
+                    
+                    ¡Donde podrás convertirte en el mejor asustador de todos!</h1>
+                    <br>
+                    <br>
+                    
+                
+                
+                <!-- Obtención de datos del usuario -->
+                <form class="formulario">
+                    <label for="usuario">Nombre:</label>
+                    <input type="text" name="nombre_usuario" id="usuario">
+                    <p>
+                        Programa:
+                        <select name="programa">
+                            <option>- Selecciona el programa</option>
+                            <option>Programa de Sustos</option>
+                            <option>Matrícula de Horror</option>
+                            <option>Master de Terror</option>
+                        </select>
+                    </p>
+                </form>
+
+                <br>
+                
+                <button type='button' id='continuar'class='btn' onclick=continuarPago() style='border-radius:10px'>Inscribirse</button>
+            </div>
+            
+            
+        </div>
+        <!-- Aquí termina la ventana de Bienvenida -->
+
+
+
+        
+        
+        
+        
+        
+        <!-- Aquí empieza la segunda ventana -->
+        <div id='caja-2' class="container">
+
+        </div>
+        <script src="index.js"> </script>
+        <link rel="stylesheet" href="style.css"> 
+    
+    
+    
+    </body>
+</html>
