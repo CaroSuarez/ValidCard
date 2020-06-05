@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Monsters University</title>
+        
+    </head>
+    <body>
+        
+        <!-- Aquí empieza la ventana de Bienvenida -->
+        <div id='ventana1' class="container" >
+            
+            <!-- Mensaje de bienvenida con el logo -->
+            <div id="Bienvenida" class="header">
+                <img src="logo.png" alt="logo"/>  
+                
+                <h1> Bienvenid@ a la página de incripción de 
+                    <br>
+                    <div id="monstersUniversity">
+                        MONSTERS UNIVERSITY
+                    </div> 
+                    
+                    ¡Donde podrás convertirte en el mejor asustador de todos!</h1>
+                    <br>
+                    <br>
+                    
+                
+                
+                <!-- Obtención de datos del usuario -->
+                <form class="formulario">
+                    <label for="usuario">Nombre:</label>
+                    <input type="text" name="nombre_usuario" id="usuario">
+                    <p>
+                        Programa:
+                        <select name="programa">
+                            <option>- Selecciona el programa</option>
+                            <option>Programa de Sustos</option>
+                            <option>Matrícula de Horror</option>
+                            <option>Master de Terror</option>
+                        </select>
+                    </p>
+                </form>
+
+                <br>
+                
+                <button type='button' id='continuar'class='btn' onclick=showFunction()> Inscribirse</button>
+            </div>
+            
+            
+        </div>
+        <!-- Aquí termina la ventana de Bienvenida -->
+
+
+
+        
+        
+        
+        
+        
+        <!-- Aquí empieza la segunda ventana -->
+        <div id='ventana2' class="container" style="display: none">
+            
+            <!-- Mensaje de bienvenida con el logo -->
+            <div class="header">
+                <img src="logo.png" alt="logo"/>  
+                <h1>Introduce el número de tu tarjeta 
+                    
+                    
+                    de crédito para validarlo:</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <!-- Campo para introducir el número de tarjeta-->
+           <form class="validationForm" name="form2">
+                <input type="number" name="tarjeta_credito" id="inputNumber">
+        
+            <br>
+            <br>
+            <br>            
+            <!-- Botón para validación-->
+            <button type='button' id='validationButton' class='btn' onclick=showFunction2()>Validar</button>
+            
+        </div>
+        <!-- Aquí terminas la segunda ventana -->
+
+
+
+        <!-- Aquí empieza la tercera ventana -->
+        <div id='ventana3' class="container" style="display: none">
+                
+            <!-- Mensaje y logo -->
+            <div class="header2">
+                <img src="logo.png" alt="logo"/>  
+                
+                <h1> ¡Validación exitosa! </h1>        
+            
+            </div>
+            <!-- Mensaje y logo -->
+        </div>
+        <!-- Aquí termina la segunda ventana -->
+
+    
+    
+    <script src="index.js"> </script>
+    <link rel="stylesheet" href="style.css">
+
+        
+    
+    </body>
+</html>
