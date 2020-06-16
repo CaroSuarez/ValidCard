@@ -2,34 +2,32 @@
 <html>
     <head>
 
-        <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Amatic SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bungee Shade" rel="stylesheet">
         <meta charset="utf-8">
         <title>Monsters University</title>
         <link rel="stylesheet" href="style.css">
         
     </head>
+
     <body>
 
-        
-        
-        <section id='ventana1' class="container" >
-            <header id="Bienvenida" class="header1"> 
+        <section id="window1" class="container" >
+            
+            <header class="header1"> 
                 <img src="logo.png" alt="logo"/>
-                <h1> Bienvenid@ a la página de incripción de<br>
-                    <span id="monstersUniversity">MONSTERS UNIVERSITY</span><br>
-                    ¡Donde podrás convertirte en el mejor asustador de todos!
-                </h1>
-                <br>
-                <br>
+                <h1 class="monstersUniversity">MONSTERS UNIVERSITY</h1>                          
             </header>
 
             <main> 
+                <h1>Bienvenid@ a nuestra página de incripción <br>
+                ¡Donde podrás convertirte en el mejor asustador de todos!</h1>
+                
                 <form class="formulario">
+                    <p>Ingresa tu datos por favor:</p>
                     <label for="usuario">Nombre:</label>
                     <input type="text" name="nombre_usuario" id="usuario">
-                    <p>
-                        Programa:
+                    <p>Programa:
                         <select name="programa">
                             <option>- Selecciona el programa</option>
                             <option>Programa de Sustos</option>
@@ -38,9 +36,11 @@
                         </select>
                     </p>
                 </form>
-                <br>                
-                <button type='button' id='continuarButton'class='btn'> Inscribirse</button>
+                             
+                <button type="button" id="continueButton" class="btn"> Inscribirse</button>
+                            
             </main>
+            
             <footer>
                 © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel.
                 <br>
@@ -48,28 +48,31 @@
                 <br>
                 Monsters Inc Company
             </footer>
+
         </section> 
             
         
-        <!-- Aquí empieza la segunda ventana -->
-        <section id='ventana2' class="container">
-            <header class="header2">
-                <img src="logo.png" alt="logo"/>  
-                <h1>Introduce el número de tu tarjeta de crédito para validarlo:</h1>
+        <section id="window2" class="container">
+            
+            <header class="header1"> 
+                <img src="logo.png" alt="logo"/>
+                <h1 class="monstersUniversity">MONSTERS UNIVERSITY</h1>                          
             </header>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                
             <main>
+                <h1>Por favor, introduce el número de tu tarjeta
+                    <br>
+                    de crédito para validarlo:</h1>
+                <br>
+                <br>
+                <br>
                 <input type="text" name="tarjetaCredito1" id="inputNumber" />
                 <br>
                 <br>
                 <br>
-                <!-- Botón para validación-->
-                <button type='button' id='validationButton' class='btn'/>Validar</button>
+                <button type="button" id="validationButton" class="btn">Validar</button>
             </main>
+            
             <footer>
                 © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel.
                 <br>
@@ -78,18 +81,20 @@
                 Monsters Inc Company
             </footer>
              
-        </section><!-- Aquí terminas la segunda ventana -->
+        </section>
 
-
-
-        <!-- Aquí empieza la tercera ventana -->
-        <section id='ventana3' class="container">           
-            <header class="header3"><!-- Mensaje y logo -->
-                <img src="logo.png" alt="logo"/>  
-                <h1> Tu tarjeta número</h1>       
-                <p id="demo1"> </p>   
-                <p>"aquí iría el resultado del isValid"</p>   
+        <section id="window3" class="container">           
+            
+            <header class="header1"> 
+                <img src="logo.png" alt="logo"/>
+                <h1 class="monstersUniversity">MONSTERS UNIVERSITY</h1>                          
             </header>
+
+            <main>
+                <h1 id="results">Tu tarjeta de crédito número:</h1>
+                <button type="button" id="button2" class="btn">Continuar</button>
+            </main>
+
             <footer>
                 © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel.
                 <br>
@@ -97,14 +102,10 @@
                 <br>
                 Monsters Inc Company
             </footer>
-        </section><!-- Aquí termina la segunda ventana -->
-
-    
-    
-        <script src="index.js" type="module"></script> </script>
-    
-
         
-    
+        </section>
+        
+        <script src="index.js" type="module"> </script>
+       
     </body>
 </html>

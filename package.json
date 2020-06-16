@@ -1,0 +1,19 @@
+{
+  "name": "validator",
+  "version": "1.0.0",
+  "description": "esto es una prueba para instalar el validator como modulo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaroSuarez/ValidCard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaroSuarez/ValidCard/issues"
+  },
+  "homepage": "https://github.com/CaroSuarez/ValidCard#readme"
+}
